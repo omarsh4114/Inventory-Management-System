@@ -17,12 +17,13 @@ void inventory::addproduct(int id, string name, double price, int quantity) {
 		}
 	}
 	// add new product 
-	Product newProduct(int id, string name, double price, int quantity);
+	Product newProduct(id, name, price, quantity);
+	products.push_back(newProduct);
 	cout << " Product added successfully " << endl;
 
 	// display all products ( gad3na meny )
 	void displayInventory() {
-		for (int i = 0; i < products.size; i++) {
+		for (int i = 0; i < products.size(); i++) {
 			products[i].display();
 		}
 	}
