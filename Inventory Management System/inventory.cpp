@@ -1,10 +1,10 @@
-#include "Inventory.h"
-#include <iostream>
-#include <string>
+#include"Inventory.h"
+#include<iostream>
+#include<string>
 #include<vector>
 #include<fstream>
 #include<sstream>
-#include <iomanip>
+#include<iomanip>
 using namespace std;
 
 //===================================================           TEAM A
